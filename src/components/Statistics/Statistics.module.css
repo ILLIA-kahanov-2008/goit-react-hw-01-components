@@ -1,0 +1,32 @@
+.statistics {
+  margin: 10px auto;
+  border: rgb(187, 184, 187) 1px solid;
+}
+
+.title {
+  background-color: #fff;
+  text-transform: uppercase;
+  line-height: 3;
+}
+
+.stats__item {
+  /* flex-basis: calc(100% / 5); */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.stats__item + .stats__item {
+  border-left: rgb(187, 184, 187) 1px solid;
+}
+
+/* .label {
+
+} */
+
+.percentage {
+  padding-top: 10px;
+  font-size: 28px;
+}

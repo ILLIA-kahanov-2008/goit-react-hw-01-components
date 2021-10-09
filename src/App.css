@@ -1,0 +1,28 @@
+.App {
+  min-width: 320px;
+  width: 480px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  /* @media screen and (min-width: 480px) {
+    max-width: 480px;
+  } */
+
+  /* @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  } */
+}
+.TaskNumber {
+  color: turquoise;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
