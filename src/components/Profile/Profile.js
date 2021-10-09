@@ -3,7 +3,6 @@ import styles from './Profile.module.css';
 
 export default function Profile(props) {
   const { name, tag, location, avatar, stats } = props;
-  console.log(props);
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
