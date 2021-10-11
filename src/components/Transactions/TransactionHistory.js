@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-// import { Transaction } from './Transaction';
 import styles from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
@@ -19,13 +18,6 @@ const TransactionHistory = ({ items }) => {
             <td>{amount}</td>
             <td>{currency}</td>
           </tr>
-
-          // <Transaction
-          //   key={id}
-          //   type={type}
-          //   amount={amount}
-          //   currency={currency}
-          // />
         ))}
       </tbody>
     </table>
