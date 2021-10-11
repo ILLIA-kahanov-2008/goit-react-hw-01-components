@@ -10,7 +10,6 @@
 }
 
 .stats__item {
-  /* flex-basis: calc(100% / 5); */
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -21,10 +20,6 @@
 .stats__item + .stats__item {
   border-left: rgb(187, 184, 187) 1px solid;
 }
-
-/* .label {
-
-} */
 
 .percentage {
   padding-top: 10px;
