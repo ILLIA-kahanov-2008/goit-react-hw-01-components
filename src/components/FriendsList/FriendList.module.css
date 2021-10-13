@@ -3,38 +3,3 @@
   margin: 20px auto;
   padding: 20px 0;
 }
-
-.status {
-  display: block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-}
-
-.onlineStatus {
-  composes: status;
-  background-color: green;
-}
-
-.offlineStatus {
-  composes: status;
-  background-color: red;
-}
-
-.item {
-  display: flex;
-  width: 80%;
-  margin: 0 auto 10px;
-  font-size: 25px;
-  justify-content: left;
-  padding: 10px;
-  align-items: center;
-  border: 1px solid lightgrey;
-  box-shadow: lightgrey 1px 2px;
-}
-
-.avatar {
-  margin: 0 10px;
-  border-radius: 10px;
-  border: 1px solid lightgrey;
-}
